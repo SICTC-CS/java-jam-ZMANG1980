@@ -1,0 +1,210 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FCEBB6;
+    color: #221811;
+    font-family: Tahoma, Arial, sans-serif;
+    margin: 0;
+    background-color: #D2B48C;
+}
+
+header{
+    background-color: #D2B48C;
+    color: #231814;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 105px;
+    height: 128px;
+    text-align: none;
+    background-image: url(img/cup.jpg);
+    background-repeat: no-repeat;
+}
+
+header a{
+    text-decoration: none;
+}
+
+header a:link{
+    color: #231814;
+}
+
+header a:visited{
+    color: #231814;
+}
+
+header a:hover{
+    color: #FEF6C2;
+}
+
+h1{
+    font-size: 2em;
+}
+
+h2{
+    color: #8C3826;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+h3{
+    color: #8C3826;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+h4{
+    background-color: #D2B48C;
+    font-size: 1.2em;
+    padding-left: .5em;
+    padding-bottom: .25em;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-transform: capitalize;
+    border-bottom-style: solid;
+    padding-bottom: 0;
+    clear: left;
+}
+
+p{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+div{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+ul{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+dl{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+dt{
+    color: #8C3826;
+}
+
+nav{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+nav a:link{
+    color: #FEF6C2;
+}
+
+nav a:visited{
+    color: #D2B48C;
+}
+
+nav a:hover{
+    color: #CC9933;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav ul{
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.25em;
+}
+
+nav li{
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    border-bottom-style: solid;
+
+}
+
+img{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+main{
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 2em;
+    background-color: #FEF6C2;
+    display: block;
+}
+
+main ul{
+    padding-left: 2em;
+}
+
+footer{
+    background-color: #D2B49C;
+    font-size: .6em;
+    text-align: center;
+    font-style: italic;
+    padding: 1em;
+    border-top: solid 2px #8C3826;
+}
+
+#wrapper{
+    width: 80%;
+    background-color: #231814;
+    padding: 0;
+}
+
+#homehero{
+    height: 300px;
+    background-size: 100% 100%;
+    background-image: url(img/road.jpg);
+}
+
+#heromugs{
+    height: 300px;
+    background-size: 100% 100%;
+    background: url(img/threemugs.jpg);
+}
+
+#heroguitar{
+    height: 300px;
+    background-size: 100% 100%;
+    background: url(img/guitar.jpg);
+    background-repeat: no-repeat;
+}
+
+#mobile{
+    display: inline;
+}
+
+#desktop{
+    display: none;
+}
+
+.details{
+    padding-left: 20%;
+    padding-right: 20%;
+    overflow: auto;
+}
+
+/* .floatleft{
+    float: left;
+    padding-right: 2em;
+    padding-bottom: 2em;
+} */
+
+/* .onethird{
+    float: left;
+    width: 33%;
+    
+} */
